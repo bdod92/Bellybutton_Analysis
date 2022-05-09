@@ -1,0 +1,14 @@
+body {
+    color: #000000;
+    background-color: blanchedalmond;
+}
+
+
+
+.jumbotron {
+    background-image: url("bb.png") !important;
+    background-size: 100% 100%;
+    text-align: center;
+    color: rgb(255, 238, 0);
+    
+}

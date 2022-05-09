@@ -7,15 +7,33 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Bellybutton Biodiversity</title>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="static/css/style.css">
 </head>
 
 <body>
-
   <div class="container">
+    <div class="wrapper">
+      <!-- Create the navbar -->
+      <nav class="navbar navbar-expand-lg">
+        <!-- Load the default page when the user clicks this link -->
+        <a class="navbar-brand" href="index.html">Bellybutton Data</a>
+      </nav>
+    </div>
     <div class="row">
-      <div class="col-md-12 jumbotron text-center">
+      <div class="jumbotron">
         <h1>Belly Button Biodiversity Dashboard</h1>
         <p>Use the interactive charts below to explore the dataset</p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-4">
+        <h2>Bellybutton Research: What's the significance?</h2>
+        <h3>A report follows</h3>
+      </div>
+      <div class="col-md-8">
+        <h3>
+          There is a growing crisis throughout the world: overutilization of our meat resources. Did you know that it takes 1000 gallons of water per 1 lb of beef? What if I could tell you that there were tasty alternatives being grown from organisms that you harbor on your very self!? <br><br> Bellybutton bacteria was sampled from 153 inviduals and catalogued for future research. The preliminary harvest data is outlined below.
+        </h3>
       </div>
     </div>
     <div class="row">
@@ -48,7 +66,7 @@
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.5.0/d3.js"></script>
   <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
-  <script src="charts.js"></script>
+  <script src="static/js/charts.js"></script>
 
 </body>
 
